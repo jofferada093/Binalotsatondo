@@ -1,0 +1,86 @@
+[
+    {
+        "id": 0,
+        "name": "Bagnet",
+        "price": 130,
+        "image": "porkfried.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Longganisa",
+        "price": 130,
+        "image": "longganisa.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Skinless",
+        "price": 130,
+        "image": "akinless.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Tocino",
+        "price": 130,
+        "image": "tocino.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Adobo",
+        "price": 130,
+        "image": "adobo.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Adobong Pusit",
+        "price": 130,
+        "image": "adobopusit.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Bicol Express",
+        "price": 130,
+        "image": "bicolexpress.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Porkchop",
+        "price": 130,
+        "image": "porkchop.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Liempo",
+        "price": 130,
+        "image": "liempo.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Sisig",
+        "price": 130,
+        "image": "sisig.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Tilapia",
+        "price": 150,
+        "image": "tilapia.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Daing na Bangus",
+        "price": 150,
+        "image": "daing.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Dilis",
+        "price": 130,
+        "image": "dilis.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Hungarian Sausage",
+        "price": 130,
+        "image": "hungarian.jpg"
+    }
+]

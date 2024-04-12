@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frequently Asked Questions</title>
+    <link rel="stylesheet" href="faq.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="navbar">
+        <img src="images/logo11.jpg" class="logo">
+        <nav>
+          <ul><b>
+            <li><a href="#S"><i class="fa-solid fa-house"></i>Home</a></li>
+            <li><a href="#"><i class="fa-solid fa-fire"></i>Best Sellers</a></li>
+            <li><a href="#"><i class="fa-solid fa-store"></i>About Us</a></li>
+            <li><a href="#"><i class="fa-solid fa-phone"></i>Contacts</a></li>
+            <li><a href="#"><i class="fa-solid fa-question"></i></i>FAQ</a></li>
+            <li><a href="#"><i class="fa-solid fa-star"></i></i>Reviews</a></li>
+          </ul></b>
+        </nav>
+        
+      </div>
+    <div class="wrapper">
+      
+      <h1>Frequently Asked Questions</h1>
+
+      <div class="faq">
+        <button class="accordion">
+          What does "Binalot sa Tondo" mean??
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="pannel">
+          <p>
+            Binalot sa Tondo translates to "Wrapped in Tondo." It reflects our commitment to serving
+            Filipino meals wrapped in banana leaves,
+            just like how they are prepared in Tondo, Manila.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <button class="accordion">
+          What are your operating hours?
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="pannel">
+          <p>
+            Our diner is open from 3pm to 2am every day of the week.
+            Please note that hours may vary on holidays, 
+            so we recommend checking our website or social media pages for updates.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <button class="accordion">
+          Can I make reservations for dining in?
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="pannel">
+          <p>
+            Yes, we accept reservations for dining in and accommodate bulk orders for events or special occasions. 
+            For reservations or inquiries about bulk orders, please contact us directly via phone or email, 
+            as indicated on our Contacts page on our website. We'll be happy to assist you in planning your dining experience.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <button class="accordion">
+          How does the Krushi address the above challanges?
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="pannel">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis
+            saepe molestiae distinctio asperiores cupiditate consequuntur dolor
+            ullam, iure eligendi harum eaque hic corporis debitis porro
+            consectetur voluptate rem officiis architecto.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <button class="accordion">
+          How can I be a part of Krushi?
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="pannel">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis
+            saepe molestiae distinctio asperiores cupiditate consequuntur dolor
+            ullam, iure eligendi harum eaque hic corporis debitis porro
+            consectetur voluptate rem officiis architecto.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <button class="accordion">
+          Is Binalot sa Tondo currently hiring?
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="pannel">
+          <p>
+            If you're in the Tondo area, feel free to visit our physical store located at 592 Aeta St., Tondo, Manila
+            to inquire about employment opportunities. However, if you're outside Tondo, you can message our owner directly
+            for any job inquiries. We're always happy to hear from potential candidates!
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          this.parentElement.classList.toggle("active");
+
+          var pannel = this.nextElementSibling;
+
+          if (pannel.style.display === "block") {
+            pannel.style.display = "none";
+          } else {
+            pannel.style.display = "block";
+          }
+        });
+      }
+    </script>
+  </body>
+</html>
